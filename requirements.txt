@@ -3,8 +3,9 @@ Flask-WTF==1.2.1
 Flask-Bcrypt==1.0.1
 Flask-SQLAlchemy==3.1.1
 Flask-Login==0.6.3
-SQLAlchemy==2.0.16
-torch==2.4.1
+SQLAlchemy
+typing-extensions
+torch
 Pillow==10.4.0
 spacy==3.7.5
 transformers==4.46.3
@@ -12,6 +13,6 @@ sentence-transformers==3.2.1
 Flask-Migrate==4.0.7
 pymysql==1.1.1
 werkzeug==3.0.4
-tensorflow==2.13.0
+tensorflow
 keras==2.13.1
 gunicorn==23.0.0
