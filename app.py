@@ -292,5 +292,4 @@ def upload():
 # Remove the db.create_all() here and instead, handle migrations with Flask-Migrate
 
 if __name__ == '__main__':
-    port = os.environ.get('PORT', 5000)
-    serve(app, host='0.0.0.0', port=int(port))
+    app.run(debug=True)
