@@ -6,7 +6,6 @@ SQLAlchemy==2.0.16
 torch==2.4.1
 Pillow==10.4.0
 spacy==3.7.5
-en-core-web-sm==3.7.1
 transformers==4.46.3
 sentence-transformers==3.2.1
 Flask-Migrate==4.0.7
